@@ -1,0 +1,17 @@
+\\ creating user 
+$ sudo adduser guviuser
+$ sudo adduser zenuser
+\\ check the user creation 
+$ cat /etc/passwd |tail
+\\ creating 10 files & folders
+$ touch file{1..10}.txt
+$ mkdir folder{1..10}
+\\ changing the permission of files & folders.
+sudo chown guviuser file{1..5}.txt
+sudo chown guviuser folder{1..5}
+sudo chown zenuser file{1..5}.txt
+sudo chown zenuser folder{1..5}
+sudo chmod 777 file{1..5}.txt
+sudo chmod 777 folder{1..5}
+sudo chmod 400 file{6..10}.txt
+sudo chmod 400 folder{6..10}
