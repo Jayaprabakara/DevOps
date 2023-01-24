@@ -1,0 +1,27 @@
+mkdir - create directories.
+ls - List directory contents.
+cd - change directories.
+pwd - current path.
+su - super user
+vi or vim - text editor.
+cp - copy files or directories.
+mv - move files or directories.
+rm - remove files.
+rmdir - remove directories.
+cat - concatnate file.
+echo - display string given.
+grep - find the pattern in the files.
+chmod - change file permissions.
+chown - change owner of the files & folder. 
+passwd - update the user or root password
+who - it will show logged on user.
+tar - archive a files.
+zip - compress the files or directories.
+ssh- secure connection for remote login.
+reboot -reboot the system.
+poweroff - shutdown the system.
+hostname - print the system name.
+ifconfig - print the network details like IP address , Mac address, NIC ID.
+adduser - user creation
+addgroup - group creation.
+usermod - to add the user into group.
